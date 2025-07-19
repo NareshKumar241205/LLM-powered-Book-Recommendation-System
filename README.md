@@ -2,8 +2,6 @@
 
 An intelligent book recommendation system powered by Large Language Models (LLMs) and Hugging Face sentence embeddings. Users can input a natural language query, select a genre and emotional tone, and get a personalized list of recommended books with thumbnails, titles, and descriptions.
 
-
-
 ---
 
 ## 🚀 Features
@@ -19,12 +17,12 @@ An intelligent book recommendation system powered by Large Language Models (LLMs
 
 ## 📂 Project Structure
 
-├── Dataset/
-│ └── books_with_emotions.csv # Book metadata + emotion scores
-├── tagged_description.txt # Corpus of book descriptions
-├── gradio-dashboard.py # Main app file
-├── db_books/ # Persisted vector DB (Chroma)
-├── assets/
-│ └── book-recommender-ui.png # UI screenshot (optional)
-├── .env # API keys or environment variables
-└── README.md
+  ├── Dataset/
+  │ └── books_with_emotions.csv # Book metadata + emotion scores
+  ├── tagged_description.txt # Corpus of book descriptions
+  ├── gradio-dashboard.py # Main app file
+  ├── db_books/ # Persisted vector DB (Chroma)
+  ├── assets/
+  │ └── book-recommender-ui.png # UI screenshot (optional)
+  ├── .env # API keys or environment variables
+  └── README.md
