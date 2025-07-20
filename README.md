@@ -23,20 +23,6 @@ Users can enter a natural language query describing the kind of book they are in
 
 ---
 
-## 📂 Project Structure
-
-  ├── Dataset/  
-  │ └── books_with_emotions.csv # Book metadata + emotion scores  
-  ├── tagged_description.txt # Corpus of book descriptions  
-  ├── gradio-dashboard.py # Main app file  
-  ├── db_books/ # Persisted vector DB (Chroma)  
-  ├── assets/  
-  │ └── book-recommender-ui.png # UI screenshot (optional)  
-  ├── .env # API keys or environment variables  
-  └── README.md  
-
----
-
 ## 🛠️ Installation & Running the App
 
 Follow these steps to set up and run the Semantic Book Recommender:
