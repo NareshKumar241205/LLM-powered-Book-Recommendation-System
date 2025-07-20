@@ -1,6 +1,8 @@
-# LLM-powered-Book-Recommendation-System
+# 📚 Semantic Book Recommender
 
-An intelligent book recommendation system powered by Large Language Models (LLMs) and Hugging Face sentence embeddings. Users can input a natural language query, select a genre and emotional tone, and get a personalized list of recommended books with thumbnails, titles, and descriptions.
+This project is a **learning-based implementation** aimed at exploring the integration of **Large Language Models (LLMs)**, **semantic similarity search**, and **emotion-aware filtering**. It uses modern AI tools such as **LangChain**, **Hugging Face Sentence Transformers**, and **Gradio** to build an intelligent book recommendation system.
+
+Users can enter a natural language query describing the kind of book they are interested in, and the system recommends titles based on semantic relevance, genre, and emotional tone. The goal of this project was to **gain hands-on experience** with vector databases, embeddings, and interactive user interfaces — key components in building real-world AI-powered applications.
 
 ---
 
