@@ -35,10 +35,34 @@ An intelligent book recommendation system powered by Large Language Models (LLMs
 
 ---
 
-## 📦 Installation
+## 🛠️ Installation & Running the App
 
-### 🔧 Step 1: Clone the repository
+Follow these steps to set up and run the Semantic Book Recommender:
 
-```bash
-git clone https://github.com/yourusername/book-recommender.git
-cd book-recommender
+---
+
+### 🧪 Step 1: Set up a virtual environment
+
+- Run `python -m venv .venv` to create a virtual environment.
+- Activate the environment:
+  - On macOS/Linux: `source .venv/bin/activate`
+  - On Windows: `.venv\Scripts\activate`
+
+---
+
+### 📥 Step 2: Install dependencies
+
+- Make sure your environment is activated.
+- Run `pip install -r requirements.txt` to install all necessary packages.
+
+---
+
+### ▶️ Step 3: Run the Gradio app
+
+- Execute the script by running: `python gradio-dashboard.py`
+- The app will launch at `http://127.0.0.1:7860/`
+
+To make it publicly shareable, modify the launch line in `gradio-dashboard.py` like this:
+
+```python
+dashboard.launch(share=True)
